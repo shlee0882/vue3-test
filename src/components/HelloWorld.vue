@@ -1,6 +1,14 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <ul>
+      <li>
+        <router-link to="/">Home</router-link>
+      </li>
+      <li>
+        <router-link to="/about">About</router-link>
+      </li>
+    </ul>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
